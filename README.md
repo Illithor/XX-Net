@@ -1,70 +1,41 @@
+# XX-Net
+
+###### [中文文档](https://github.com/XX-net/XX-Net/wiki/%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3) &nbsp; &nbsp; &nbsp;[English](https://github.com/XX-net/XX-Net/wiki/English-Home-Page) &nbsp; &nbsp; &nbsp;[فارسی صفحه اصلی](https://github.com/XX-net/XX-Net/wiki/Persian-home-page) 
+
+* 易用的翻墙工具  
+* 包含的GAE_proxy和X-Tunnel：  
 
 
-XX-Net
-========
-翻墙工具套件  
-* GAE proxy, 稳定、易用、快速  
-  Stable, easy and fast proxy  
-* Web界面，人性化交互  
-  Friendly web UI  
+| 模块        | GAE_proxy   | X-Tunnel  |  
+| ------------- |:-------------:| :-----:| 
+| 稳定性| 部分地区不稳定 | 稳定可用 |
+| 速度 | 流畅 | 下载快速，偶尔卡顿 | 
+| 安全性| Google可看到通信内容 |  完全加密 |  
+| 易用 | 需开启Ipv6，部署服务端，导入证书 | 简单  |
+| 兼容性| 部分网站不支持 | 无问题 |
+| 收费  | 免费 | 付费 |  
+
+<br>
+
+### [__下载页面__](https://github.com/XX-net/XX-Net/blob/master/code/default/download.md)
+<br>
 
 
-下载链接(Download)：
-==========
-测试版(Test)：
-https://codeload.github.com/XX-net/XX-Net/zip/2.7.3
+### 最新状态：
+ 2017-12-20
+* 新版 3.9.0 Smart-Router 模块发布，请使用 8086 通用代理端口
+ 
+* X-Tunnel 请升级到3.9.0 （[使用教程](https://github.com/XX-net/XX-Net/wiki/x-tunnel%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B)）  
 
-稳定版(Stable)：
-https://codeload.github.com/XX-net/XX-Net/zip/2.7.3
+* GAE:  扫不到ip，请开启ipv6，请参考：
+  [如何开启IPv6](https://github.com/XX-net/XX-Net/wiki/%E5%A6%82%E4%BD%95%E5%BC%80%E5%90%AFIPv6)
 
-使用方法：https://github.com/XX-net/XX-Net/wiki/使用方法
+  
 
-更新历史：https://github.com/XX-net/XX-Net/wiki/更新历史
   
   
+<br>
 
-
-
-
-平台支持(Support Platforms)
-================
-* Windows 7/8/10 （xp 需要 [tcpip.sys补丁]( https://github.com/yeahwu/wu/raw/master/WindowsXP-TCPIP-concurrency-count-patch.rar) , 将数量调节到2014.）
-  Win10 存在声音卡的问题 
-* Linux 
-* Mac OS X(10.7; 10.8; 10.9; 10.10; 10.11)
-
-
-
-## 链接(Links)
-|   |   |
-| --------   | :----  |
-|问题报告(Report bug):  |https://github.com/XX-net/XX-Net/issues|
-|讨论群(Discuss forum):  |https://groups.google.com/forum/#!forum/xx-net|
-
-感谢(Thanks)
-=========
-* [Google](https://www.google.com)
-* [GoAgent](https://github.com/phuslu/goagent)
-* [GoGoTest](https://github.com/azzvx/gogotester)
-* [goagentfindip](https://github.com/usrtmp/goagentfindip)
-* [checkgoogleip](https://github.com/moonshawdo/checkgoogleip)
-
-
-如何帮助项目(How to contribute)
-==========
-https://github.com/XX-net/XX-Net/wiki/How-to-contribute
-
-集成XX-Net的项目
-===============
-* ChromeGAE
-  主页：http://www.ccav1.com/chromegae
-  集成Google Chrome和XX-Net的自动翻墙浏览器
-  维护人：Yanu
-* 集成Chrome和XX-Net
-  https://github.com/yeahwu/chrome-xx
-* plusburg
-  主页：https://github.com/Plusburg/Plusburg
-  集成XX-Net的启动光盘镜像
-* appifed-xx-net
-  https://github.com/binarydist/appified-xx-net
-  Mac OSX 环境下，变成一个标准的MAC应用
+#### 提示：  
+* 有问题请先看[Wiki文档](https://github.com/XX-net/XX-Net/wiki/%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3)
+* [提问](https://github.com/XX-net/XX-Net/issues)前，请先看[最近讨论主题](https://github.com/XX-net/XX-Net/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)，避免重复发问。  
